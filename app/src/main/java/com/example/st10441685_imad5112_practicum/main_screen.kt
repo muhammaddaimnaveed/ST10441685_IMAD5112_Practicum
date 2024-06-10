@@ -39,6 +39,7 @@ class main_screen : AppCompatActivity() {
 
         // Assigning the variables to store the user input.
 
+        
         saveButton.setOnClickListener {
 
             val day = dayEditText.text.toString()
