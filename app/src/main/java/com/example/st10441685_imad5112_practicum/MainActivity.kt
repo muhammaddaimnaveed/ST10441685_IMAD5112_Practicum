@@ -15,12 +15,13 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
 
-        val nextButton = findViewById<Button>(R.id.nextButton)
+         val nextButton = findViewById<Button>(R.id.nextButton)
         val exitButton = findViewById<Button>(R.id.exitButton)
 
 
 
         // This code takes the user to the Main Screen.
+
 
         nextButton.setOnClickListener {
             val intent = Intent(this, main_screen::class.java)
