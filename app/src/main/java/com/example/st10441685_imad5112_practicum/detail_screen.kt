@@ -12,10 +12,7 @@ import androidx.core.view.WindowInsetsCompat
 
 class detail_screen : AppCompatActivity() {
 
-    private var dateStorage: ArrayList<String> = ArrayList()
-    private var mstStorage: ArrayList<String> = ArrayList()
-    private var astStorage: ArrayList<String> = ArrayList()
-    private var notesStorage: ArrayList<String> = ArrayList()
+
 
     @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
